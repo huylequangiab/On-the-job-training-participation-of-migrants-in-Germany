@@ -1,0 +1,200 @@
+
+\documentclass[12pt,a4paper]{article}
+\renewcommand{\baselinestretch}{1.5}
+\usepackage{lipsum}
+\usepackage{authblk}
+\usepackage[top=2cm, bottom=2cm, left=2cm, right=2cm]{geometry}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+\usepackage{booktabs, multicol, multirow}
+\usepackage{epstopdf}
+\usepackage{subfigure}
+\usepackage{xspace}
+\usepackage{ltablex}
+\usepackage[flushleft]{threeparttable}
+
+\pagestyle{fancy}
+
+\begin{document}
+
+%title and author details
+\title{Job training participation - The catching up of the second generation migrants in Germany }
+
+\author[1]{Ute Leber \thanks{CONTACT: ute.leber@iab.de}}
+\author[2]{Huy Le Quang}
+\affil[1]{Institute for Employment Research, Nuremberg, Germany}
+\affil[2]{Institute for Employment Research, Nuremberg, Germany}
+
+
+\maketitle
+
+\begin{abstract}{Job training plays a significant role in improving workers' labor market performance and is an important indicator of social participation and labor market integration of migrants. Using two large representative datasets, this paper empirically investigates the participation in job training of three different groups, namely, German natives, first generation and second generation migrants. In doing so, the paper reveals important determinants of job training participation and identifies various heterogeneous effects. We find that the first generation migrants are less likely to take part in job training programs compared to the other groups, meanwhile the second generation migrants have already caught up with the German natives in job training take-ups. The results, however, vary between different sub-samples such as males/females, or blue-collar/white-collar workers. Among others, language skills, education, occupational status and occupational characteristics are key determinants of job training participation.} 
+\end{abstract}
+
+\providecommand{\keywords}[1]{\textbf{\textit{Keywords}} #1}
+\keywords{job training, migrants, heterogeneous effects \\
+\textbf{JEL}: I26, J24, J30}
+
+
+\newpage
+
+\section{Introduction}
+
+Germany made a mistakes in the 1960s: allow Turkish immigrants to come in without offering language and job training programs... Today...
+
+This paper investigates....
+
+This research contributes to the existing literature in several ways. First,....
+
+The remainder of the paper is organized as follows: Section 2 presents data. Section 3 formulates the estimation models. Section 4 reports and analyzes the participation in job training programs of German natives and migrants. Finally, section 5 gives concluding remarks and proposes policy recommendations to improve the labor market success of migrants in Germany.
+
+
+\section{Data}
+
+This research combines two large representative datasets - the traditional SOEP and the new IAB-SOEP Migration Sample. First the SOEP is... Second, the IAB--SOEP Migration Sample is a household survey undertaken annually by the Institute for Employment Research (IAB) in Nuremberg and the German Socio-Economic Panel (SOEP) at German Institute for Economic Research (DIW Berlin). The first wave of the survey started in 2013 and covered 4,964 persons in 2,723 households. These are second-generation immigrants and immigrants who first appeared in administrative data from the German unemployment insurance in 1995 and are older than 16 years. Some countries of origin are given higher sampling probability to ensure sufficient observations such as immigrants from EU-New Member States and Southern European countries (Bruecker et al., 2014). This new dataset provides a large representative sample of migrants in Germany. With comprehensive information, it also provides new insights to various aspect of immigration such as migration history, education background and labor market performance (Bruecker et al., 2014).
+
+This paper only focus on immigrants who are from 25 to 64 years of age who are employed on full--time or regular part--time basis. We exclude... because... The effective sample of analysis is 1,724 immigrants.
+
+
+\begin{center}
+\begin{table}[htbp]
+\centering
+\caption{Descriptive Statistics}
+
+\scalebox{0.7}{
+\begin{tabular}{p{15.335em}rrr}
+\toprule
+\toprule
+\multicolumn{1}{l}{\textbf{Variablen}} & \multicolumn{1}{c}{\textbf{Deutsch}} & \multicolumn{1}{c}{\textbf{1. Generation}} & \multicolumn{1}{c}{\textbf{2. Generation}} \\
+\midrule
+\multicolumn{1}{l}{Weiterbildungsteilnahme} & 0.241 & 0.189 & 0.293 \\
+\multicolumn{1}{l}{\textbf{Demographie}} & & & \\
+\multicolumn{1}{l}{Männer} & 0.539 & 0.599 & 0.528 \\
+\multicolumn{1}{l}{Alter} & 47.166 & 43.552 & 40.952 \\
+\multicolumn{1}{r}{} & (9.512) & (10.046) & (10.233) \\
+\multicolumn{1}{l}{Verheiratet} & 0.695 & 0.775 & 0.575 \\
+\multicolumn{1}{l}{Herkunftland} & & & \\
+\multicolumn{1}{r}{\textit{Europäisch}} & & 0.659 & 0.616 \\
+\multicolumn{1}{r}{\textit{Islamischer Staaten}} & & 0.168 & 0.334 \\
+\multicolumn{1}{r}{\textit{Rest der Welt}} & & 0.173 & 0.050 \\
+\multicolumn{1}{l}{Jahre seit Zuzug} & & 21.655 & \\
+\multicolumn{1}{r}{} & & (12.353) & \\
+\multicolumn{1}{l}{\textbf{Bildung und Qualifikationen}} & & & \\
+\multicolumn{1}{l}{Bildungszeit (Jahr)} & 11.653 & 11.746 & 12.085 \\
+\multicolumn{1}{r}{} & (1.448) & (2.537) & (2.411) \\
+\multicolumn{1}{l}{Höchster Ausbildungsabschluss} & & & \\
+\multicolumn{1}{r}{\textit{Kein Abschluss}} & 0.005 & 0.042 & 0.008 \\
+\multicolumn{1}{r}{\textit{Schulabschluss}} & 0.075 & 0.215 & 0.118 \\
+\multicolumn{1}{r}{\textit{Ausbildung}} & 0.760 & 0.504 & 0.694 \\
+\multicolumn{1}{r}{\textit{Hochschulabschluss}} & 0.160 & 0.239 & 0.180 \\
+\multicolumn{1}{l}{Sprachkompetenz (Gut)} & 1.000 & 0.641 & 0.996 \\
+\multicolumn{1}{l}{} & & & \\
+\multicolumn{1}{l}{\textbf{Berufsliche Situationen}} & & & \\
+\multicolumn{1}{l}{Berufsliche Stellungen} & & & \\
+\textit{Ungelernte/angelernte Arbeiter} & 0.153 & 0.401 & 0.178 \\
+\textit{Facharbeiter/Vorarbeiter/Meister} & 0.200 & 0.141 & 0.149 \\
+\textit{Einfache Angestellte} & 0.126 & 0.076 & 0.097 \\
+\textit{Qualifizierte Angestellte} & 0.381 & 0.216 & 0.398 \\
+\textit{Hochqualifizierte Angestellte} & 0.100 & 0.161 & 0.149 \\
+\textit{Beamte} & 0.040 & 0.005 & 0.029 \\
+Erfahrung (Tenure) & 14.204 & 8.864 & 10.057 \\
+\multicolumn{1}{r}{} & (11.597) & (8.377) & (9.036) \\
+Betriebsgröße & & & \\
+\textit{Mikro } & 0.121 & 0.134 & 0.122 \\
+\textit{Klein } & 0.089 & 0.085 & 0.082 \\
+\textit{Mittel } & 0.275 & 0.305 & 0.245 \\
+\textit{Groß } & 0.515 & 0.476 & 0.551 \\
+Veröffentliche Dienst (Ja) & 0.230 & 0.152 & 0.229 \\
+Zeitarbeits- bzw. Leiharbeitsverhältnis (Ja) & 0.015 & 0.043 & 0.022 \\
+unbefristeten Arbeitsvertrag (Ja) & 0.933 & 0.859 & 0.908 \\
+\multicolumn{1}{r}{} & & & \\
+\textbf{Summe} & \textbf{ 13,954 } & \textbf{ 4,954 } & \textbf{ 1,614 } \\
+\bottomrule
+\end{tabular}%
+}
+\vspace{1ex}
+
+\raggedright 
+\centering{Source: SOEP v.33 and IAB-SOEP Migration Sample, own calculation. \\
+		   Notes: results are weightedlköjljkfölasdkföaslkföakföaslkökökföadkfölaskjfaslöjaslöfjasljasölkjasö.l}
+\end{table}%
+\end{center}
+
+
+Table 1 presents summary statistics. First, ....
+
+\section{Empirical strategies}
+
+This section presents the methodology to investigate the... The main identification strategy is the logistic regression model as following
+$$y_{i}=\alpha_{0}+\alpha_{1}L_{i}+\alpha_{2}X'_{i}+\mu_{i}$$
+in which $y_{i}$ is either job finding methods or labor market outcomes, $L_{i}$ is the dummies for pre-migration language skills (1: speak German well; 0: do not speak German at all), $X_{i}$ contains all control variables, $\mu_{i}$ is the idiosyncratic error term. 
+
+\section{Findings and Discussion}
+In this section, we present empirical results from models in the above section. First, we analyze the participation...
+
+\textbf{Job training participation}
+\begin{center}
+[INSERT TABLE 2 HERE]
+\end{center}
+
+Table 2 reports...
+
+\textbf{Heterogeneous effects}
+
+\begin{center}
+\begin{table}[htbp]
+\centering
+\caption{Heterogeneous effects}
+\scalebox{0.7}{
+\begin{tabular}{rlrrr}
+\toprule
+\toprule
+\multicolumn{1}{l}{\textit{Dep. Var= Participation in OJT}} & & \multicolumn{1}{l}{\textbf{Deutsch}} & \multicolumn{1}{l}{\textbf{1. Generation}} & \multicolumn{1}{l}{\textbf{2. Generation}} \\
+\midrule
+\multicolumn{1}{l}{\textbf{Males}} & Coef. & \multicolumn{1}{c}{\textit{Ref}} & -0.274*** & 0.061 \\
+& S.E. & \multicolumn{1}{c}{\textit{Ref}} & (0.056) & (0.058) \\
+& No. Of Obs. & 6,901 & 2,929 & 842 \\
+\multicolumn{1}{l}{\textbf{Females}} & Coef. & \multicolumn{1}{c}{\textit{Ref}} & -0.005 & 0.001 \\
+& S.E. & \multicolumn{1}{c}{\textit{Ref}} & (0.006) & (.0137) \\
+& No. Of Obs. & 7,053 & 2,025 & 772 \\
+\multicolumn{1}{l}{\textbf{Europe}} & Coef. & \multicolumn{1}{c}{\textit{NA}} & \multicolumn{1}{c}{\textit{Ref}} & -0.006 \\
+& S.E. & \multicolumn{1}{c}{\textit{NA}} & & (0.025) \\
+& No. Of Obs. & \multicolumn{1}{c}{\textit{NA}} & 2,263 & 281 \\
+\multicolumn{1}{l}{\textbf{Islamic countries}} & Coef. & \multicolumn{1}{c}{\textit{NA}} & \multicolumn{1}{c}{\textit{Ref}} & 0.001 \\
+& S.E. & \multicolumn{1}{c}{\textit{NA}} & & (0.022) \\
+& No. Of Obs. & \multicolumn{1}{c}{\textit{NA}} & 306 & 109 \\
+\multicolumn{1}{l}{\textbf{Rest of the world}} & Coef. & \multicolumn{1}{c}{\textit{NA}} & \multicolumn{1}{c}{\textit{Ref}} & 0.142 \\
+& S.E. & \multicolumn{1}{c}{\textit{NA}} & & (0.146) \\
+& No. Of Obs. & \multicolumn{1}{c}{\textit{NA}} & 247 & 5 \\
+\multicolumn{1}{l}{\textbf{Blue-collar workers}} & Coef. & \multicolumn{1}{c}{\textit{Ref}} & -0.056*** & -0.022*** \\
+& S.E. & \multicolumn{1}{c}{\textit{Ref}} & (0.007) & (0.008) \\
+& No. Of Obs. & 6,575 & 3,068 & 656 \\
+\multicolumn{1}{l}{\textbf{White-collar workers}} & Coef. & \multicolumn{1}{c}{\textit{Ref}} & 0.001 & 0.037* \\
+& S.E. & \multicolumn{1}{c}{\textit{Ref}} & (0.008) & (0.019) \\
+& No. Of Obs. & 7,379 & 1,886 & 958 \\
+\bottomrule
+\end{tabular}%
+}
+\end{table}%
+
+\end{center}
+
+Table 3 illustrates...
+
+
+All in all, ...
+
+
+\section{Conclusions}
+
+Germany has a long tradition of immigration among European countries, but unlike the United States, Australia and Canada, policy makers in Germany are not well-prepared for the integration of the existing population of immigrants (Dustmann, Frattini and Lanzara, 2012). This paper contributes to ...
+
+The paper sheds light on ...
+
+\end{document}
+
+
+
