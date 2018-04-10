@@ -1,3 +1,4 @@
+
 \documentclass[12pt,a4paper]{article}
 \renewcommand{\baselinestretch}{1.5}
 \usepackage{lipsum}
@@ -14,15 +15,18 @@
 \usepackage{xspace}
 \usepackage{ltablex}
 \usepackage[flushleft]{threeparttable}
+\usepackage{adjustbox}
+\usepackage{pdflscape}
+\usepackage{tabu}
 
 \pagestyle{fancy}
 
 \begin{document}
 
 %title and author details
-\title{Job training participation - The catching up of the second generation migrants in Germany }
+\title{The heterogeneous participation in job training of immigrants in Germany }
 
-\author[1]{Ute Leber \thanks{CONTACT: ute.leber@iab.de}}
+\author[1]{Ute Leber \thanks{Corresponding Author: Department of Education and Employment over the Life course, Institute for Employment Research. Email: ute.leber@iab.de}}
 \author[2]{Huy Le Quang}
 \affil[1]{Institute for Employment Research, Nuremberg, Germany}
 \affil[2]{Institute for Employment Research, Nuremberg, Germany}
@@ -30,43 +34,119 @@
 
 \maketitle
 
-\begin{abstract}{Job training plays a significant role in improving workers' labor market performance and is an important indicator of social participation and labor market integration of migrants. Using two large representative datasets, this paper empirically investigates the participation in job training of three different groups, namely, German natives, first generation and second generation migrants. In doing so, the paper reveals important determinants of job training participation and identifies various heterogeneous effects. We find that the first generation migrants are less likely to take part in job training programs compared to the other groups, meanwhile the second generation migrants have already caught up with the German natives in job training take-ups. The results, however, vary between different sub-samples such as males/females, or blue-collar/white-collar workers. Among others, language skills, education, occupational status and occupational characteristics are key determinants of job training participation.} 
+\begin{abstract}{Job training is an important indicator of labor market integration of migrants. In this paper, we combine two large representative datasets to empirically investigates the participation in job training of three different groups of immigrants, namely, the first generation, the second generation immigrants and refugees against the reference group of German natives. In doing so, the paper reveals important determinants of job training participation and identifies various heterogeneous effects among these groups. We find that the first generation immigrants and refugees are significantly less likely to take part in job training programs, meanwhile the second generation immigrants have already caught up with the German natives in terms of job training take-ups. The educational level and the language skills as well as several firms' characteristics are the key determinants of job training participation. The results, however, vary between different sub-samples such as males/females, or blue-collar/white-collar workers. } 
 \end{abstract}
 
 \providecommand{\keywords}[1]{\textbf{\textit{Keywords}} #1}
-\keywords{job training, migrants, heterogeneous effects \\
-\textbf{JEL}: I26, J24, J30}
+\keywords{job training, immigrants, heterogeneous effects 
+
+\textbf{JEL}: I21, J08, J24}
 
 
 \newpage
 
 \section{Introduction}
 
-Germany made a mistakes in the 1960s: allow Turkish immigrants to come in without offering language and job training programs... Today...
+On-the-job training is crucial for labor market integration because...
 
 This paper investigates....
 
-This research contributes to the existing literature in several ways. First,....
+This research contributes to the existing literature in several ways. First, consider refugee. Second, language skill...
 
-The remainder of the paper is organized as follows: Section 2 presents data. Section 3 formulates the estimation models. Section 4 reports and analyzes the participation in job training programs of German natives and migrants. Finally, section 5 gives concluding remarks and proposes policy recommendations to improve the labor market success of migrants in Germany.
+The remainder of the paper is organized as follows: Section 2 gives a theoretical overview. Section 3 presents data. Section 4 formulates the estimation models. Section 5 reports and analyzes the participation in job training programs of German natives and immigrants. Finally, section 6 gives concluding remarks and proposes policy recommendations to improve the labor market success of migrants in Germany.
 
+\section{Theoretical background}
+Human capital theory
 
 \section{Data}
 
-This research combines two large representative datasets - the traditional SOEP and the new IAB-SOEP Migration Sample. First the SOEP is... Second, the IAB--SOEP Migration Sample is a household survey undertaken annually by the Institute for Employment Research (IAB) in Nuremberg and the German Socio-Economic Panel (SOEP) at German Institute for Economic Research (DIW Berlin). The first wave of the survey started in 2013 and covered 4,964 persons in 2,723 households. These are second-generation immigrants and immigrants who first appeared in administrative data from the German unemployment insurance in 1995 and are older than 16 years. Some countries of origin are given higher sampling probability to ensure sufficient observations such as immigrants from EU-New Member States and Southern European countries (Bruecker et al., 2014). This new dataset provides a large representative sample of migrants in Germany. With comprehensive information, it also provides new insights to various aspect of immigration such as migration history, education background and labor market performance (Bruecker et al., 2014).
+\subsection{Sample restriction}
 
-This paper only focus on immigrants who are from 25 to 64 years of age who are employed on full--time or regular part--time basis. We exclude... because... The effective sample of analysis is 1,724 immigrants.
+This research combines two large representative datasets - the traditional GSOEP and the new IAB-SOEP Migration Sample. First the SOEP is... Second, the IAB--SOEP Migration Sample is a household survey undertaken annually by the Institute for Employment Research (IAB) in Nuremberg and the German Socio-Economic Panel (SOEP) at German Institute for Economic Research (DIW Berlin). The first wave of the survey started in 2013 and covered 4,964 persons in 2,723 households. These are second-generation immigrants and immigrants who first appeared in administrative data from the German unemployment insurance in 1995 and are older than 16 years. Some countries of origin are given higher sampling probability to ensure sufficient observations such as immigrants from EU-New Member States and Southern European countries (Bruecker et al., 2014). This new dataset provides a large representative sample of migrants in Germany. With comprehensive information, it also provides new insights to various aspect of immigration such as migration history, education background and labor market performance (Bruecker et al., 2014).
 
+This paper only focus on immigrants who are from 25 to 64 years of age who are employed on full--time or regular part--time basis. We exclude... because... The effective sample of analysis is 19,102 observations.
+
+German natives (without migration background)
+First generation immigrants
+Second generation immigrants: born in Germany, or migrated to Germany when they were younger than 6 years old.
+Refugees: ethnic German resettler + new refugee
+
+\begin{center}
+[INSERT TABLE 1 HERE]
+\end{center}
+
+Table 1 presents sample size. First, ....
+
+\begin{center}
+[INSERT TABLE 2 HERE]
+\end{center}
+
+Table 2 reports summary statistics of covariates differentiated by migration backgrounds
+
+\subsection{Participation in on-the-job training}
+
+\textit{Measuring on-the-job training}
+
+Survey question: "Did you participate in any job training last year''
+Job training programs must be organized and financed by employers, the number of programs are larger than 1, and the time of participation is at least one day.
+
+\begin{center}
+[INSERT TABLE 3 HERE]
+\end{center}
+
+Table 3 presents the participation in on-the-job training of people with different migration background.
+
+\begin{center}
+[INSERT TABLE 4 HERE]
+\end{center}
+
+Table 4 illustrates the heterogenenous participation in on-the-job training.
+
+\section{Empirical strategies}
+
+This section presents the methodology to investigate the... The main identification strategy is the logistic regression model as following
+
+$$Pr(y_{i}=1|X_{i})=\frac{\mathrm{e}^{\beta_{0}+\beta_{1}X_{i}}}{1+\mathrm{e}^{\beta_{0}+\beta_{1}X_{i}}} $$
+in which $y_{i}$ is a dummy variable which equals to 1 if a person participates in job training and 0 otherwise, $X_{i}$ contains all control variables which belong to three groups: (1) demography (migration background, gender, marital status, age, age squared), (2) human capital (years of education, tenure with firms, German language skills) and (3) occupational characteristics (position, firm size, industry, public sector, temporary employment agency, permanent contract). In addition, models also control for dummies of 16 Federal states in Germany, and survey years dummies. 
+
+\begin{center}
+[INSERT TABLE 5 HERE]
+\end{center}
+
+Table 5 report the determinants of job training participation among 4 groups with different migration background.
+
+\begin{center}
+[INSERT TABLE 6 HERE]
+\end{center}
+
+We split the sample, and report results in each sample in Table 6.
+
+\section{Findings and Discussion}
+In this section, we present empirical results from models in the above section. First, we analyze the participation...
+
+
+All in all, ...
+
+
+\section{Conclusions}
+
+Germany has a long tradition of immigration among European countries, but unlike the United States, Australia and Canada, policy makers in Germany are not well-prepared for the integration of the existing population of immigrants (Dustmann, Frattini and Lanzara, 2012). This paper contributes to ...
+
+The paper sheds light on ...
+
+\section{References}
+
+\section{Appendices}
 
 % Table generated by Excel2LaTeX from sheet '06.04.2018'
 \begin{table}[htbp]
+ \begin{threeparttable}
   \centering
-  \caption{Add caption}
-  \begin{adjustbox}{max width=\textwidth}
+  \small{\caption{Descriptive statistics: Sample restriction}}
     \begin{tabular}{lrrr}
     \toprule
     \toprule
-    \textit{Groups differentiated by migration background} & \multicolumn{1}{c}{Frequency} & \multicolumn{1}{c}{Percentage} & \multicolumn{1}{p{11em}}{Cumulative percentage} \\
+    \textit{Groups differentiated by migration background} & \multicolumn{1}{c}{Frequency} & \multicolumn{1}{c}{Percentage} & \multicolumn{1}{p{9.3em}}{Cumulative percentage} \\
     \midrule
     Germans without migration background & 13,423 & 0.703 & 0.703 \\
     First generation immigrants & 4,225 & 0.221 & 0.924 \\
@@ -75,41 +155,23 @@ This paper only focus on immigrants who are from 25 to 64 years of age who are e
     Total & 19,102 &       &  \\
     \bottomrule
     \end{tabular}%
-    \end{adjustbox}
-  \label{tab:addlabel}%
-\end{table}%
-
-
-% Table generated by Excel2LaTeX from sheet '06.04.2018'
-\begin{table}[htbp]
-  \centering
-  \caption{Add caption}
-    \begin{tabular}{lrr}
-    \toprule
-    \toprule
-          & \multicolumn{2}{c}{Participation in on-the-job training} \\
-\cmidrule{2-3}    \textit{Groups differentiated by migration background} & \multicolumn{1}{c}{Frequency} & \multicolumn{1}{c}{Percentage} \\
-    \midrule
-    Germans without migration background & 3,450 & 0.257 \\
-    First generation immigrants & 847   & 0.200 \\
-    Second generation immigrants & 422   & 0.297 \\
-    Refugees and Asylum seekers & 6     & 0.182 \\
-    Total & 4,725 & 0.247 \\
-    Pearson's Chi-square = 76.170*** &       &  \\
-    \bottomrule
-    \end{tabular}%
-  \label{tab:addlabel}%
+  \begin{tablenotes}
+      \small
+      \item Source: Combined data of GSOEP and IAB-SOEP Migration Sample (Wave: 2014 - 2016), sample weights used.
+    \end{tablenotes}
+  \end{threeparttable}
 \end{table}%
 
 % Table generated by Excel2LaTeX from sheet '06.04.2018'
 \begin{table}[htbp]
+
   \centering
-  \caption{Add caption}
-  \scalebox{0.7}{
-    \begin{tabular}{p{16.835em}rrrrr}
+ \small{\caption{ Summary statistics of covariates differentiated by migration background}}
+\scalebox{0.53}{
+    \begin{tabular}{p{12.15em}rrrrr}
     \toprule
     \toprule
-    \multicolumn{1}{c}{Characteristics/Variables} & \multicolumn{1}{p{9.335em}}{Germans without migration background} & \multicolumn{1}{p{8.415em}}{First generation immigrants} & \multicolumn{1}{p{9.585em}}{Second generation immigrants} & \multicolumn{1}{p{9.25em}}{Refugees and Asylum seekers} & \multicolumn{1}{p{8em}}{Total} \\
+    \multicolumn{1}{c}{Characteristics/Variables} & \multicolumn{1}{c}{Germans without migration background} & \multicolumn{1}{c}{First generation immigrants} & \multicolumn{1}{c}{Second generation immigrants} & \multicolumn{1}{c}{Refugees and Asylum seekers} & \multicolumn{1}{c}{Total} \\
     \midrule
     \multicolumn{1}{l}{\textbf{Demographics}} &       &       &       &       &  \\
     \multicolumn{1}{l}{Males} & 0.540 & 0.587 & 0.527 & 0.913 & 0.547 \\
@@ -134,114 +196,240 @@ This paper only focus on immigrants who are from 25 to 64 years of age who are e
     \multicolumn{1}{l}{} &       &       &       &       &  \\
     \multicolumn{1}{l}{\textbf{Occupational situations}} &       &       &       &       &  \\
     \multicolumn{1}{l}{Employment status} &       &       &       &       &  \\
-    \multicolumn{1}{r}\textit{Full-time} & 0.733 & 0.769 & 0.755 & 0.659 & 0.740 \\
-    \multicolumn{1}{r}\textit{Part-time} & 0.267 & 0.231 & 0.245 & 0.341 & 0.260 \\
+    \multicolumn{1}{r}{\textit{Full-time}} & 0.733 & 0.769 & 0.755 & 0.659 & 0.740 \\
+    \multicolumn{1}{r}{\textit{Part-time}} & 0.267 & 0.231 & 0.245 & 0.341 & 0.260 \\
     \multicolumn{1}{l}{Occupational position} &       &       &       &       &  \\
-    \multicolumn{1}{r}\textit{Unskilled blue collar workers} & 0.153 & 0.401 & 0.178 & 0.667 & 0.211 \\
-    \multicolumn{1}{r}\textit{Skilled blue collar workers} & 0.200 & 0.141 & 0.149 & 0.006 & 0.183 \\
-    \multicolumn{1}{r}\textit{Unskilled white collar workers} & 0.126 & 0.076 & 0.097 & 0.207 & 0.113 \\
-    \multicolumn{1}{r}\textit{Skilled white collar workers} & 0.381 & 0.216 & 0.398 & 0.067 & 0.345 \\
-    \multicolumn{1}{r}\textit{Highly skilled white collar workers} & 0.100 & 0.161 & 0.149 & 0.053 & 0.117 \\
-    \multicolumn{1}{r}\textit{Civil servants} & 0.040 & 0.005 & 0.029 & 0.000 & 0.031 \\
+    \multicolumn{1}{r}{\textit{Unskilled blue collar workers}} & 0.153 & 0.401 & 0.178 & 0.667 & 0.211 \\
+    \multicolumn{1}{r}{\textit{Skilled blue collar workers}} & 0.200 & 0.141 & 0.149 & 0.006 & 0.183 \\
+    \multicolumn{1}{r}{\textit{Unskilled white collar workers}} & 0.126 & 0.076 & 0.097 & 0.207 & 0.113 \\
+    \multicolumn{1}{r}{\textit{Skilled white collar workers}} & 0.381 & 0.216 & 0.398 & 0.067 & 0.345 \\
+    \multicolumn{1}{r}{\textit{Highly skilled white collar workers}} & 0.100 & 0.161 & 0.149 & 0.053 & 0.117 \\
+    \multicolumn{1}{r}{\textit{Civil servants}} & 0.040 & 0.005 & 0.029 & 0.000 & 0.031 \\
     Tenure with firms & 14.350 & 8.961 & 10.426 & 3.070 & 13.224 \\
     \multicolumn{1}{r}{} & (11.618) & (8.528) & (9.295) & (4.259) & (11.240) \\
     Size of establishment &       &       &       &       &  \\
-    \multicolumn{1}{r}\textit{Less than 20 employees} & 0.121 & 0.133 & 0.127 & 0.409 & 0.124 \\
-    \multicolumn{1}{r}\textit{20-199 employees} & 0.088 & 0.085 & 0.079 & 0.249 & 0.087 \\
-    \multicolumn{1}{r}\textit{200-1999 employees} & 0.272 & 0.300 & 0.248 & 0.159 & 0.275 \\
-    \multicolumn{1}{r}\textit{More than 2000 employees} & 0.519 & 0.482 & 0.546 & 0.183 & 0.514 \\
+    \multicolumn{1}{r}{\textit{Less than 20 employees}} & 0.121 & 0.133 & 0.127 & 0.409 & 0.124 \\
+    \multicolumn{1}{r}{\textit{20-199 employees}} & 0.088 & 0.085 & 0.079 & 0.249 & 0.087 \\
+    \multicolumn{1}{r}{\textit{200-1999 employees}} & 0.272 & 0.300 & 0.248 & 0.159 & 0.275 \\
+    \multicolumn{1}{r}{\textit{More than 2000 employees}} & 0.519 & 0.482 & 0.546 & 0.183 & 0.514 \\
     Industry &       &       &       &       &  \\
-    \multicolumn{1}{r}\textit{Agriculture} & 0.048 & 0.043 & 0.030 & 0.009 & 0.046 \\
-    \multicolumn{1}{r}\textit{Manufacturing} & 0.220 & 0.289 & 0.246 & 0.075 & 0.231 \\
-    \multicolumn{1}{r}\textit{Construction} & 0.086 & 0.066 & 0.036 & 0.010 & 0.086 \\
-    \multicolumn{1}{r}\textit{Trade} & 0.156 & 0.181 & 0.159 & 0.292 & 0.160 \\
-    \multicolumn{1}{r}\textit{Communication and Financial Services} & 0.116 & 0.097 & 0.120 & 0.298 & 0.110 \\
-    \multicolumn{1}{r}\textit{Public services} & 0.167 & 0.135 & 0.156 & 0.122 & 0.161 \\
-    \multicolumn{1}{r}\textit{Health and Education} & 0.174 & 0.162 & 0.220 & 0.131 & 0.175 \\
-    \multicolumn{1}{r}\textit{Private household and other services} & 0.033 & 0.027 & 0.033 & 0.063 & 0.031 \\
+    \multicolumn{1}{r}{\textit{Agriculture}} & 0.048 & 0.043 & 0.030 & 0.009 & 0.046 \\
+    \multicolumn{1}{r}{\textit{Manufacturing}} & 0.220 & 0.289 & 0.246 & 0.075 & 0.231 \\
+    \multicolumn{1}{r}{\textit{Construction}} & 0.086 & 0.066 & 0.036 & 0.010 & 0.086 \\
+    \multicolumn{1}{r}{\textit{Trade}} & 0.156 & 0.181 & 0.159 & 0.292 & 0.160 \\
+    \multicolumn{1}{r}{\textit{Communication and Financial Services}} & 0.116 & 0.097 & 0.120 & 0.298 & 0.110 \\
+    \multicolumn{1}{r}{\textit{Public services}} & 0.167 & 0.135 & 0.156 & 0.122 & 0.161 \\
+    \multicolumn{1}{r}{\textit{Health and Education}} & 0.174 & 0.162 & 0.220 & 0.131 & 0.175 \\
+    \multicolumn{1}{r}{\textit{Private household and other services}} & 0.033 & 0.027 & 0.033 & 0.063 & 0.031 \\
     Public sector & 0.233 & 0.159 & 0.229 & 0.059 & 0.220 \\
     Temporary employment agency & 0.014 & 0.043 & 0.019 & 0.064 & 0.019 \\
     Permanent contracts & 0.934 & 0.860 & 0.912 & 0.815 & 0.921 \\
     \bottomrule
-    \end{tabular}}%
-  \label{tab:addlabel}%
-\end{table}%
-\raggedright 
-\centering{Source: SOEP v.33 and IAB-SOEP Migration Sample, own calculation. \\
-		   Notes: results are weightedlköjljkfölasdkföaslkföakföaslkökökföadkfölaskjfaslöjaslöfjasljasölkjasö.l}
-\end{table}%
-\end{center}
-
-
-Table 1 presents summary statistics. First, ....
-
-\section{Empirical strategies}
-
-This section presents the methodology to investigate the... The main identification strategy is the logistic regression model as following
-$$y_{i}=\alpha_{0}+\alpha_{1}L_{i}+\alpha_{2}X'_{i}+\mu_{i}$$
-in which $y_{i}$ is either job finding methods or labor market outcomes, $L_{i}$ is the dummies for pre-migration language skills (1: speak German well; 0: do not speak German at all), $X_{i}$ contains all control variables, $\mu_{i}$ is the idiosyncratic error term. 
-
-\section{Findings and Discussion}
-In this section, we present empirical results from models in the above section. First, we analyze the participation...
-
-\textbf{Job training participation}
-\begin{center}
-[INSERT TABLE 2 HERE]
-\end{center}
-
-Table 2 reports...
-
-\textbf{Heterogeneous effects}
-
-\begin{center}
-\begin{table}[htbp]
-\centering
-\caption{Heterogeneous effects}
-\scalebox{0.7}{
-\begin{tabular}{rlrrr}
-\toprule
-\toprule
-\multicolumn{1}{l}{\textit{Dep. Var= Participation in OJT}} & & \multicolumn{1}{l}{\textbf{Deutsch}} & \multicolumn{1}{l}{\textbf{1. Generation}} & \multicolumn{1}{l}{\textbf{2. Generation}} \\
-\midrule
-\multicolumn{1}{l}{\textbf{Males}} & Coef. & \multicolumn{1}{c}{\textit{Ref}} & -0.274*** & 0.061 \\
-& S.E. & \multicolumn{1}{c}{\textit{Ref}} & (0.056) & (0.058) \\
-& No. Of Obs. & 6,901 & 2,929 & 842 \\
-\multicolumn{1}{l}{\textbf{Females}} & Coef. & \multicolumn{1}{c}{\textit{Ref}} & -0.005 & 0.001 \\
-& S.E. & \multicolumn{1}{c}{\textit{Ref}} & (0.006) & (.0137) \\
-& No. Of Obs. & 7,053 & 2,025 & 772 \\
-\multicolumn{1}{l}{\textbf{Europe}} & Coef. & \multicolumn{1}{c}{\textit{NA}} & \multicolumn{1}{c}{\textit{Ref}} & -0.006 \\
-& S.E. & \multicolumn{1}{c}{\textit{NA}} & & (0.025) \\
-& No. Of Obs. & \multicolumn{1}{c}{\textit{NA}} & 2,263 & 281 \\
-\multicolumn{1}{l}{\textbf{Islamic countries}} & Coef. & \multicolumn{1}{c}{\textit{NA}} & \multicolumn{1}{c}{\textit{Ref}} & 0.001 \\
-& S.E. & \multicolumn{1}{c}{\textit{NA}} & & (0.022) \\
-& No. Of Obs. & \multicolumn{1}{c}{\textit{NA}} & 306 & 109 \\
-\multicolumn{1}{l}{\textbf{Rest of the world}} & Coef. & \multicolumn{1}{c}{\textit{NA}} & \multicolumn{1}{c}{\textit{Ref}} & 0.142 \\
-& S.E. & \multicolumn{1}{c}{\textit{NA}} & & (0.146) \\
-& No. Of Obs. & \multicolumn{1}{c}{\textit{NA}} & 247 & 5 \\
-\multicolumn{1}{l}{\textbf{Blue-collar workers}} & Coef. & \multicolumn{1}{c}{\textit{Ref}} & -0.056*** & -0.022*** \\
-& S.E. & \multicolumn{1}{c}{\textit{Ref}} & (0.007) & (0.008) \\
-& No. Of Obs. & 6,575 & 3,068 & 656 \\
-\multicolumn{1}{l}{\textbf{White-collar workers}} & Coef. & \multicolumn{1}{c}{\textit{Ref}} & 0.001 & 0.037* \\
-& S.E. & \multicolumn{1}{c}{\textit{Ref}} & (0.008) & (0.019) \\
-& No. Of Obs. & 7,379 & 1,886 & 958 \\
-\bottomrule
-\end{tabular}%
+    \end{tabular}%
 }
+ \begin{tablenotes}
+      \small
+      \item Source: Combined data of GSOEP and IAB-SOEP Migration Sample (Wave: 2014 - 2016), sample weights used.
+    \end{tablenotes}
 \end{table}%
 
-\end{center}
+% Table generated by Excel2LaTeX from sheet '06.04.2018'
+\begin{table}[htbp]
+  \centering
+  \small{\caption{Participation in on-the-job training of people with different migration backgrounds}}
+    \begin{tabular}{lrr}
+    \toprule
+    \toprule
+          & \multicolumn{2}{c}{Participation in on-the-job training} \\
+\cmidrule{2-3}    \textit{Groups differentiated by migration background} & \multicolumn{1}{c}{Frequency} & \multicolumn{1}{c}{Percentage} \\
+    \midrule
+    Germans without migration background & 3,450 & 0.257 \\
+    First generation immigrants & 847   & 0.200 \\
+    Second generation immigrants & 422   & 0.297 \\
+    Refugees and Asylum seekers & 6     & 0.182 \\
+    Total & 4,725 & 0.247 \\
+    Pearson's Chi-square = 76.170*** &       &  \\
+    \bottomrule
+    \end{tabular}%
+\begin{tablenotes}
+      \small
+      \item Source: Combined data of GSOEP and IAB-SOEP Migration Sample (Wave: 2014 - 2016), sample weights used.
+      \item Note: *** $p < .001$
+    \end{tablenotes}
+\end{table}%
 
-Table 3 illustrates...
+% Table generated by Excel2LaTeX from sheet '06.04.2018'
+\begin{table}[htbp]
+  \centering
+  \small{\caption{Descriptive statistics: Participation in On-the-job training with respect to different covariates and migration backgrounds}}
+\scalebox{0.63}{
+    \begin{tabular}{p{17.25em}rrrrr}
+    \toprule
+    \toprule
+    \multicolumn{1}{r}{} & \multicolumn{1}{p{7.35em}}{Total} & \multicolumn{1}{p{6.75em}}{Germans without migration background} & \multicolumn{1}{p{6.8em}}{First generation immigrants} & \multicolumn{1}{p{6.8em}}{Second generation immigrants} & \multicolumn{1}{p{7.25em}}{Refugees and Asylum seekers} \\
+    \midrule
+    \multicolumn{1}{l}{Gender} &       &       &       &       &  \\
+    \multicolumn{1}{r}{\textit{Males}} & 0.238 & 0.251 & 0.180 & 0.253 & 0.425 \\
+    \multicolumn{1}{r}{\textit{Females}} & 0.237 & 0.236 & 0.204 & 0.335 & 0.036 \\
+    \multicolumn{1}{l}{Survey year} &       &       &       &       &  \\
+    \multicolumn{1}{r}{\textit{2014}} & 0.233 & 0.235 & 0.198 & 0.270 & 0.000 \\
+    \multicolumn{1}{r}{\textit{2015}} & 0.231 & 0.239 & 0.176 & 0.345 & 0.089 \\
+    \multicolumn{1}{r}{\textit{2016}} & 0.254 & 0.265 & 0.208 & 0.277 & 0.054 \\
+    \multicolumn{1}{l}{Regions of origin} &       &       &       &       &  \\
+    \multicolumn{1}{r}{\textit{Germany}} & 0.243 & 0.243 & -     & -     & - \\
+    \multicolumn{1}{r}{\textit{European countries}} & 0.205 & -     & 0.188 & 0.337 & 0.000 \\
+    \multicolumn{1}{r}{\textit{Turkey and Islamic countries}} & 0.108 & -     & 0.097 & 0.153 & 0.029 \\
+    \multicolumn{1}{r}{\textit{Rest of the world}} & 0.121 & -     & 0.107 & 0.445 & - \\
+    \multicolumn{1}{l}{Highest qualifications} &       &       &       &       &  \\
+    \multicolumn{1}{r}{\textit{No vocational qualifications}} & 0.121 & 0.083 & 0.155 & 0.000 & 0.000 \\
+    \multicolumn{1}{r}{\textit{School leaving certificates}} & 0.157 & 0.187 & 0.083 & 0.224 & 0.000 \\
+    \multicolumn{1}{r}{\textit{Vocational training}} & 0.248 & 0.249 & 0.208 & 0.293 & 0.208 \\
+    \multicolumn{1}{r}{\textit{University degrees}} & 0.286 & 0.054 & 0.273 & 0.411 & 0.194 \\
+    \multicolumn{1}{l}{German language skills } &       &       &       &       &  \\
+    \multicolumn{1}{r}{\textit{Good}} & 0.246 & -     & 0.239 & 0.292 & 0.086 \\
+    \multicolumn{1}{r}{\textit{Bad}} & 0.101 & -     & 0.102 & 0.112 & 0.000 \\
+    \multicolumn{1}{l}{Occupational position} &       &       &       &       &  \\
+    \multicolumn{1}{r}{\textit{Unskilled blue collar workers}} & 0.080 & 0.086 & 0.067 & 0.095 & 0.000 \\
+    \multicolumn{1}{r}{\textit{Skilled blue collar workers}} & 0.170 & 0.176 & 0.165 & 0.074 & 0.000 \\
+    \multicolumn{1}{r}{\textit{Unskilled white collar workers}} & 0.177 & 0.173 & 0.165 & 0.292 & 0.000 \\
+    \multicolumn{1}{r}{\textit{Skilled white collar workers}} & 0.311 & 0.307 & 0.279 & 0.402 & 0.825 \\
+    \multicolumn{1}{r}{\textit{Highly skilled white collar workers}} & 0.400 & 0.398 & 0.409 & 0.386 & 0.279 \\
+    \multicolumn{1}{r}{\textit{Civil servants}} & 0.407 & 0.407 & 0.202 & 0.505 & - \\
+    Size of establishment &       &       &       &       &  \\
+    \multicolumn{1}{r}{\textit{Less than 20 employees}} & 0.167 & 0.165 & 0.162 & 0.224 & 0.000 \\
+    \multicolumn{1}{r}{\textit{20-199 employees}} & 0.210 & 0.215 & 0.097 & 0.485 & 0.104 \\
+    \multicolumn{1}{r}{\textit{200-1999 employees}} & 0.224 & 0.231 & 0.187 & 0.248 & 0.077 \\
+    \multicolumn{1}{r}{\textit{More than 2000 employees}} & 0.266 & 0.274 & 0.216 & 0.299 & 0.175 \\
+    Industry &       &       &       &       &  \\
+    \multicolumn{1}{r}{\textit{Agriculture}} & 0.109 & 0.114 & 0.045 & 0.269 & 0.000 \\
+    \multicolumn{1}{r}{\textit{Manufacturing}} & 0.194 & 0.202 & 0.170 & 0.185 & 0.000 \\
+    \multicolumn{1}{r}{\textit{Construction}} & 0.199 & 0.199 & 0.200 & 0.224 & 0.000 \\
+    \multicolumn{1}{r}{\textit{Trade}} & 0.154 & 0.177 & 0.063 & 0.143 & 0.000 \\
+    \multicolumn{1}{r}{\textit{Communication and Financial Services}} & 0.288 & 0.292 & 0.262 & 0.301 & 0.111 \\
+    \multicolumn{1}{r}{\textit{Public services}} & 0.278 & 0.278 & 0.235 & 0.388 & 0.000 \\
+    \multicolumn{1}{r}{\textit{Health and Education}} & 0.355 & 0.348 & 0.340 & 0.461 & 0.282 \\
+    \multicolumn{1}{r}{\textit{Private household and other services}} & 0.225 & 0.249 & 0.067 & 0.286 & 0.000 \\
+    Public sector &       &       &       &       &  \\
+    \multicolumn{1}{r}{\textit{Yes}} & 0.331 & 0.330 & 0.307 & 0.390 & 0.232 \\
+    \multicolumn{1}{r}{\textit{No }} & 0.211 & 0.218 & 0.168 & 0.263 & 0.039 \\
+    Temporary employment agency &       &       &       &       &  \\
+    \multicolumn{1}{r}{\textit{Yes}} & 0.113 & 0.124 & 0.083 & 0.205 & 0.000 \\
+    \multicolumn{1}{r}{\textit{No }} & 0.240 & 0.245 & 0.195 & 0.293 & 0.074 \\
+    Permanent contracts &       &       &       &       &  \\
+    \multicolumn{1}{r}{\textit{Yes}} & 0.242 & 0.248 & 0.194 & 0.300 & 0.086 \\
+    \multicolumn{1}{r}{\textit{No }} & 0.181 & 0.186 & 0.166 & 0.205 & 0.000 \\
+    \bottomrule
+    \end{tabular}%
+}
+ \begin{tablenotes}
+      \tiny
+      \item Source: Combined data of GSOEP and IAB-SOEP Migration Sample (Wave: 2014 - 2016), sample weights used.
+    \end{tablenotes}
+\end{table}%
+
+% Table generated by Excel2LaTeX from sheet '06.04.2018'
+\begin{table}[htbp]
+  \centering
+ \small{\caption{Results of logistic regression: probability of participation in on-the-job training}}
+\scalebox{0.52}{
+   \begin{tabular}{lrrrrrr}
+    \toprule
+    \toprule
+    \multicolumn{1}{p{16.35em}}{                         } & \multicolumn{1}{p{7.35em}}{Model 1} & \multicolumn{1}{p{6.75em}}{Model 2} & \multicolumn{1}{p{6.8em}}{Model 3} & \multicolumn{1}{p{6.8em}}{Model 4} & \multicolumn{1}{p{7.25em}}{Model 5} & \multicolumn{1}{p{5.85em}}{Model 6} \\
+    \midrule
+    \multicolumn{1}{p{16.35em}}{Migration background} &       &       &       &       &       &  \\
+    \multicolumn{1}{r}{\textit{Germans without migration background}} & \multicolumn{1}{p{7.35em}}{Ref} & \multicolumn{1}{p{6.75em}}{Ref} & \multicolumn{1}{p{6.8em}}{Ref} & \multicolumn{1}{p{6.8em}}{Ref} & \multicolumn{1}{p{7.25em}}{Ref} & \multicolumn{1}{p{5.85em}}{Ref} \\
+    \multicolumn{1}{r}{\textit{First generation immigrants}} & \multicolumn{1}{p{7.35em}}{-0.054***} & \multicolumn{1}{p{6.75em}}{-0.058***} & \multicolumn{1}{p{6.8em}}{-0.059***} & \multicolumn{1}{p{6.8em}}{-0.027} & \multicolumn{1}{p{6.8em}}{-0.015} & \multicolumn{1}{p{6.8em}}{-0.001} \\
+          & \multicolumn{1}{p{7.35em}}{(0.015)} & \multicolumn{1}{p{6.75em}}{(0.016)} & \multicolumn{1}{p{6.8em}}{(0.016)} & \multicolumn{1}{p{6.8em}}{(0.021)} & \multicolumn{1}{p{7.25em}}{(0.017)} & \multicolumn{1}{p{5.85em}}{(0.019)} \\
+    \multicolumn{1}{r}{\textit{Second generation immigrants}} & \multicolumn{1}{p{7.35em}}{0.048*} & \multicolumn{1}{p{7.35em}}{0.044} & \multicolumn{1}{p{7.35em}}{0.032} & \multicolumn{1}{p{7.35em}}{0.033} & \multicolumn{1}{p{7.35em}}{0.029} & \multicolumn{1}{p{7.35em}}{0.029} \\
+    \multicolumn{1}{p{16.35em}}{\textit{                         }} & \multicolumn{1}{p{7.35em}}{(0.027)} & \multicolumn{1}{p{6.75em}}{(0.028)} & \multicolumn{1}{p{6.8em}}{(0.028)} & \multicolumn{1}{p{6.8em}}{(0.027)} & \multicolumn{1}{p{7.25em}}{(0.025)} & \multicolumn{1}{p{5.85em}}{(0.025)} \\
+    \multicolumn{1}{r}{\textit{Refugees and Asylum seekers}} & \multicolumn{1}{p{7.35em}}{-0.174***} & \multicolumn{1}{p{6.75em}}{-0.180***} & \multicolumn{1}{p{6.8em}}{-0.152***} & \multicolumn{1}{p{6.8em}}{-0.142**} & \multicolumn{1}{p{7.25em}}{-0.119*} & \multicolumn{1}{p{5.85em}}{-0.114*} \\
+    \multicolumn{1}{p{16.35em}}{                         } & \multicolumn{1}{p{7.35em}}{(0.045)} & \multicolumn{1}{p{6.75em}}{(0.042)} & \multicolumn{1}{p{6.8em}}{(0.057)} & \multicolumn{1}{p{6.8em}}{(0.060)} & \multicolumn{1}{p{7.25em}}{(0.064)} & \multicolumn{1}{p{5.85em}}{(0.065)} \\
+    \multicolumn{1}{p{16.35em}}{Males} &       & \multicolumn{1}{p{7.25em}}{0.002} & \multicolumn{1}{p{7.25em}}{0.006} & \multicolumn{1}{p{7.25em}}{0.007} & \multicolumn{1}{p{7.25em}}{0.039***} & \multicolumn{1}{p{5.85em}}{0.040***} \\
+    \multicolumn{1}{p{16.35em}}{                         } &       & \multicolumn{1}{p{6.75em}}{(0.012)} & \multicolumn{1}{p{6.8em}}{(0.012)} & \multicolumn{1}{p{6.8em}}{(0.012)} & \multicolumn{1}{p{7.25em}}{(0.013)} & \multicolumn{1}{p{5.85em}}{(0.013)} \\
+    \multicolumn{1}{p{16.35em}}{Married} &       & \multicolumn{1}{p{7.25em}}{0.021} & \multicolumn{1}{p{7.25em}}{0.019} & \multicolumn{1}{p{7.25em}}{0.020}  & \multicolumn{1}{p{7.25em}}{0.015} & \multicolumn{1}{p{7.25em}}{0.015} \\
+    \multicolumn{1}{p{16.35em}}{                         } &       & \multicolumn{1}{p{6.75em}}{(0.014)} & \multicolumn{1}{p{6.8em}}{(0.014)} & \multicolumn{1}{p{6.8em}}{(0.014)} & \multicolumn{1}{p{7.25em}}{(0.014)} & \multicolumn{1}{p{5.85em}}{(0.014)} \\
+    \multicolumn{1}{p{16.35em}}{Age} &       &  \multicolumn{1}{p{6.75em}}{-0.001} & \multicolumn{1}{p{6.8em}}{-0.001*} & \multicolumn{1}{p{6.8em}}{-0.001*} &  \multicolumn{1}{p{6.75em}}{-0.001} &  \multicolumn{1}{p{6.75em}}{-0.001} \\
+    \multicolumn{1}{p{16.35em}}{                         } &       & \multicolumn{1}{p{6.75em}}{(0.001)} & \multicolumn{1}{p{6.8em}}{(0.001)} & \multicolumn{1}{p{6.8em}}{(0.001)} & \multicolumn{1}{p{7.25em}}{(0.001)} & \multicolumn{1}{p{5.85em}}{(0.001)} \\
+    Years of education &       &       & \multicolumn{1}{p{6.8em}}{0.036***} & \multicolumn{1}{p{6.8em}}{0.035***} & \multicolumn{1}{p{7.25em}}{0.008**} & \multicolumn{1}{p{5.85em}}{0.007**} \\
+    \multicolumn{1}{p{16.35em}}{                         } &       &       & \multicolumn{1}{p{6.8em}}{(0.003)} & \multicolumn{1}{p{6.8em}}{(0.003)} & \multicolumn{1}{p{7.25em}}{(0.004)} & \multicolumn{1}{p{5.85em}}{(0.004)} \\
+    \multicolumn{1}{p{16.35em}}{Tenure with firms} &       &       & \multicolumn{1}{p{6.8em}}{0.002***} & \multicolumn{1}{p{6.8em}}{0.002***} & \multicolumn{1}{p{6.8em}}{0.000} & \multicolumn{1}{p{6.8em}}{0.000} \\
+    \multicolumn{1}{p{16.35em}}{                         } &       &       & \multicolumn{1}{p{6.8em}}{(0.001)} & \multicolumn{1}{p{6.8em}}{(0.001)} & \multicolumn{1}{p{7.25em}}{(0.001)} & \multicolumn{1}{p{5.85em}}{(0.001)} \\
+    \multicolumn{1}{p{16.35em}}{Good German language skills                 } &       &       &       & \multicolumn{1}{p{6.8em}}{0.108***} &       & \multicolumn{1}{p{5.85em}}{0.058**} \\
+    Occupational position &       &       &       & \multicolumn{1}{p{6.8em}}{(0.022)} &       & \multicolumn{1}{p{5.85em}}{(0.025)} \\
+    \multicolumn{1}{r}{\textit{Unskilled blue collar workers}} &       &       &       &       & \multicolumn{1}{p{7.25em}}{Ref} & \multicolumn{1}{p{5.85em}}{Ref} \\
+    \multicolumn{1}{r}{\textit{Skilled blue collar workers}} &       &       &       &       & \multicolumn{1}{p{7.25em}}{0.093***} & \multicolumn{1}{p{5.85em}}{0.091***} \\
+          &       &       &       &       & \multicolumn{1}{p{7.25em}}{(0.015)} & \multicolumn{1}{p{5.85em}}{(0.016)} \\
+    \multicolumn{1}{r}{\textit{Unskilled white collar workers}} &       &       &       &       & \multicolumn{1}{p{7.25em}}{0.094***} & \multicolumn{1}{p{5.85em}}{0.092***} \\
+          &       &       &       &       & \multicolumn{1}{p{7.25em}}{(0.016)} & \multicolumn{1}{p{5.85em}}{(0.016)} \\
+    \multicolumn{1}{r}{\textit{Skilled white collar workers}} &       &       &       &       & \multicolumn{1}{p{7.25em}}{0.199***} & \multicolumn{1}{p{5.85em}}{0.196***} \\
+          &       &       &       &       & \multicolumn{1}{p{7.25em}}{(0.014)} & \multicolumn{1}{p{5.85em}}{(0.014)} \\
+    \multicolumn{1}{r}{\textit{Highly skilled white collar workers}} &       &       &       &       & \multicolumn{1}{p{7.25em}}{0.280***} & \multicolumn{1}{p{5.85em}}{0.276***} \\
+          &       &       &       &       & \multicolumn{1}{p{7.25em}}{(0.023)} & \multicolumn{1}{p{5.85em}}{(0.023)} \\
+    \multicolumn{1}{r}{\textit{Civil servants}} &       &       &       &       & \multicolumn{1}{p{7.25em}}{0.255***} & \multicolumn{1}{p{5.85em}}{0.253***} \\
+    \multicolumn{1}{p{16.35em}}{                         } &       &       &       &       & \multicolumn{1}{p{7.25em}}{(0.041)} & \multicolumn{1}{p{5.85em}}{(0.041)} \\
+    \multicolumn{1}{p{16.35em}}{Size of establishment} &       &       &       &       &       &  \\
+    \multicolumn{1}{r}{\textit{Less than 20 employees}} &       &       &       &       & \multicolumn{1}{p{7.25em}}{Ref} & \multicolumn{1}{p{5.85em}}{Ref} \\
+    \multicolumn{1}{r}{\textit{20-199 employees}} &       &       &       &       & \multicolumn{1}{p{7.25em}}{0.037} & \multicolumn{1}{p{7.25em}}{0.037} \\
+          &       &       &       &       & \multicolumn{1}{p{7.25em}}{(0.026)} & \multicolumn{1}{p{5.85em}}{(0.026)} \\
+    \multicolumn{1}{r}{\textit{200-1999 employees}} &       &       &       &       & \multicolumn{1}{p{7.25em}}{0.045**} & \multicolumn{1}{p{5.85em}}{0.044**} \\
+          &       &       &       &       & \multicolumn{1}{p{7.25em}}{(0.019)} & \multicolumn{1}{p{5.85em}}{(0.019)} \\
+    \multicolumn{1}{r}{\textit{More than 2000 employees}} &       &       &       &       & \multicolumn{1}{p{7.25em}}{0.059***} & \multicolumn{1}{p{5.85em}}{0.058***} \\
+    \multicolumn{1}{p{16.35em}}{                         } &       &       &       &       & \multicolumn{1}{p{7.25em}}{(0.018)} & \multicolumn{1}{p{5.85em}}{(0.018)} \\
+    \multicolumn{1}{p{16.35em}}{Industry} &       &       &       &       &       &  \\
+    \multicolumn{1}{r}{\textit{Agriculture}} &       &       &       &       & \multicolumn{1}{p{7.25em}}{Ref} & \multicolumn{1}{p{5.85em}}{Ref} \\
+    \multicolumn{1}{r}{\textit{Manufacturing}} &       &       &       &       & \multicolumn{1}{p{7.25em}}{0.049**} & \multicolumn{1}{p{5.85em}}{0.048**} \\
+          &       &       &       &       & \multicolumn{1}{p{7.25em}}{(0.022)} & \multicolumn{1}{p{5.85em}}{(0.022)} \\
+    \multicolumn{1}{r}{\textit{Construction}} &       &       &       &       & \multicolumn{1}{p{7.25em}}{0.065**} & \multicolumn{1}{p{5.85em}}{0.063**} \\
+          &       &       &       &       & \multicolumn{1}{p{7.25em}}{(0.029)} & \multicolumn{1}{p{5.85em}}{(0.029)} \\
+    \multicolumn{1}{r}{\textit{Trade}} &       &       &       &       & \multicolumn{1}{p{7.25em}}{0.035} & \multicolumn{1}{p{7.25em}}{0.034} \\
+          &       &       &       &       & \multicolumn{1}{p{7.25em}}{(0.024)} & \multicolumn{1}{p{5.85em}}{(0.024)} \\
+    \multicolumn{1}{r}{\textit{Communication and Financial Services}} &       &       &       &       & \multicolumn{1}{p{7.25em}}{0.117***} & \multicolumn{1}{p{5.85em}}{0.117***} \\
+          &       &       &       &       & \multicolumn{1}{p{7.25em}}{(0.027)} & \multicolumn{1}{p{5.85em}}{(0.027)} \\
+    \multicolumn{1}{r}{\textit{Public services}} &       &       &       &       & \multicolumn{1}{p{7.25em}}{0.082***} & \multicolumn{1}{p{5.85em}}{0.081***} \\
+          &       &       &       &       & \multicolumn{1}{p{7.25em}}{(0.026)} & \multicolumn{1}{p{5.85em}}{(0.026)} \\
+    \multicolumn{1}{r}{\textit{Health and Education}} &       &       &       &       & \multicolumn{1}{p{7.25em}}{0.198***} & \multicolumn{1}{p{5.85em}}{0.197***} \\
+          &       &       &       &       & \multicolumn{1}{p{7.25em}}{(0.026)} & \multicolumn{1}{p{5.85em}}{(0.026)} \\
+    \multicolumn{1}{r}{\textit{Private household and other services}} &       &       &       &       & \multicolumn{1}{p{7.25em}}{0.096***} & \multicolumn{1}{p{5.85em}}{0.095***} \\
+    \multicolumn{1}{p{16.35em}}{                         } &       &       &       &       & \multicolumn{1}{p{7.25em}}{(0.036)} & \multicolumn{1}{p{5.85em}}{(0.036)} \\
+    \multicolumn{1}{p{16.35em}}{Public sector} &       &       &       &       & \multicolumn{1}{p{7.25em}}{0.020} & \multicolumn{1}{p{7.25em}}{0.020} \\
+    \multicolumn{1}{p{16.35em}}{                         } &       &       &       &       & \multicolumn{1}{p{7.25em}}{(0.016)} & \multicolumn{1}{p{5.85em}}{(0.016)} \\
+    \multicolumn{1}{p{16.35em}}{Temporary employment agency} &       &       &       &       & \multicolumn{1}{p{7.25em}}{-0.018} & \multicolumn{1}{p{7.25em}}{-0.015} \\
+    \multicolumn{1}{p{16.35em}}{                         } &       &       &       &       & \multicolumn{1}{p{7.25em}}{(0.055)} & \multicolumn{1}{p{5.85em}}{(0.056)} \\
+    \multicolumn{1}{p{16.35em}}{Permanent contracts} &       &       &       &       & \multicolumn{1}{p{7.25em}}{0.039*} & \multicolumn{1}{p{5.85em}}{0.039*} \\
+    \multicolumn{1}{p{16.35em}}{                         } &       &       &       &       & \multicolumn{1}{p{7.25em}}{(0.021)} & \multicolumn{1}{p{5.85em}}{(0.021)} \\
+    \multicolumn{1}{p{16.35em}}{Federal States dummies} & \multicolumn{1}{p{7.35em}}{No} & \multicolumn{1}{p{6.75em}}{Yes} & \multicolumn{1}{p{6.8em}}{Yes} & \multicolumn{1}{p{6.8em}}{Yes} & \multicolumn{1}{p{7.25em}}{Yes} & \multicolumn{1}{p{5.85em}}{Yes} \\
+    \multicolumn{1}{p{16.35em}}{Survey years dummies} & \multicolumn{1}{p{7.35em}}{No} & \multicolumn{1}{p{6.75em}}{Yes} & \multicolumn{1}{p{6.8em}}{Yes} & \multicolumn{1}{p{6.8em}}{Yes} & \multicolumn{1}{p{7.25em}}{Yes} & \multicolumn{1}{p{5.85em}}{Yes} \\
+    \multicolumn{1}{p{16.35em}}{Number of Observations} &                19,102    &              19,102    &              19,102    &              19,102    &                19,102    &          19,102    \\
+    \multicolumn{1}{p{16.35em}}{Pseudo R\^2               } & 0.003 & 0.01  & 0.033 & 0.035 & 0.095 & 0.096 \\
+    Percentage of correct predictions & 0.753 & 0.732 & 0.731 & 0.731 & 0.736 & 0.736 \\
+    \bottomrule
+    \end{tabular}%
+}
+ 
+\end{table}%
+
+\clearpage
+      \small
+Source: Combined data of GSOEP and IAB-SOEP Migration Sample (Wave: 2014 - 2016), sample weights used.
+
+Notes: This table reports results of the Average Marginal Effects (AMEs) of the logistic regression of on-the-job training participation on people with different migration backgrounds.
+
+Model 1: People with different migration backgrounds.
+
+Model 2: People with different migration backgrounds and demographic variables.
+
+Model 3: People with different migration backgrounds, demographic and human capital variables (exclude German language skills).
+
+Model 4: People with different migration backgrounds, demographic and human capital variables (include German language skills).
+
+Model 5: People with different migration backgrounds, demographic, human capital variables (exclude German language skills), and occupational characteristics.
+
+Model 6: People with different migration backgrounds, demographic, human capital variables (include German language skills), and occupational characteristics.
+
+Ref = Reference category, p: level of significance: * $p < .1$, ** $p < .05$, *** $p < .01$. Standard errors clustered at personal level and reported in parentheses. Percentage of correct prediction estimates assume that if the estimated probability is greater than or equal to $.5$ then the event is expected to occur and not occur otherwise.
 
 
-All in all, ...
-
-
-\section{Conclusions}
-
-Germany has a long tradition of immigration among European countries, but unlike the United States, Australia and Canada, policy makers in Germany are not well-prepared for the integration of the existing population of immigrants (Dustmann, Frattini and Lanzara, 2012). This paper contributes to ...
-
-The paper sheds light on ...
 
 \end{document}
 
